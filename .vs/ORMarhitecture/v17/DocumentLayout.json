@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DA1675-B262-4916-A516-4BCA5A1F8BA2}|ORMarhitecture.DataAccessLayer\\ORMarhitecture.DataAccessLayer.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\sql apps\\ormarhitecture\\ormarhitecture.dataaccesslayer\\configurations\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DA1675-B262-4916-A516-4BCA5A1F8BA2}|ORMarhitecture.DataAccessLayer\\ORMarhitecture.DataAccessLayer.csproj|solutionrelative:ormarhitecture.dataaccesslayer\\configurations\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DA1675-B262-4916-A516-4BCA5A1F8BA2}|ORMarhitecture.DataAccessLayer\\ORMarhitecture.DataAccessLayer.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\sql apps\\ormarhitecture\\ormarhitecture.dataaccesslayer\\context\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DA1675-B262-4916-A516-4BCA5A1F8BA2}|ORMarhitecture.DataAccessLayer\\ORMarhitecture.DataAccessLayer.csproj|solutionrelative:ormarhitecture.dataaccesslayer\\context\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A28CC481-4C14-4BCE-98A5-F5AC3C332764}|ORMarhitecture.Core\\ORMarhitecture.Core.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\sql apps\\ormarhitecture\\ormarhitecture.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A28CC481-4C14-4BCE-98A5-F5AC3C332764}|ORMarhitecture.Core\\ORMarhitecture.Core.csproj|solutionrelative:ormarhitecture.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A28CC481-4C14-4BCE-98A5-F5AC3C332764}|ORMarhitecture.Core\\ORMarhitecture.Core.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\sql apps\\ormarhitecture\\ormarhitecture.core\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A28CC481-4C14-4BCE-98A5-F5AC3C332764}|ORMarhitecture.Core\\ORMarhitecture.Core.csproj|solutionrelative:ormarhitecture.core\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\ORMarhitecture.DataAccessLayer\\Configurations\\ProductConfig.cs",
+              "RelativeDocumentMoniker": "ORMarhitecture.DataAccessLayer\\Configurations\\ProductConfig.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\ORMarhitecture.DataAccessLayer\\Configurations\\ProductConfig.cs",
+              "RelativeToolTip": "ORMarhitecture.DataAccessLayer\\Configurations\\ProductConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T13:35:48.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\ORMarhitecture.DataAccessLayer\\Context\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "ORMarhitecture.DataAccessLayer\\Context\\ProductDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\ORMarhitecture.DataAccessLayer\\Context\\ProductDbContext.cs",
+              "RelativeToolTip": "ORMarhitecture.DataAccessLayer\\Context\\ProductDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T13:32:31.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\ORMarhitecture.Core\\Models\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ORMarhitecture.Core\\Models\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\ORMarhitecture.Core\\Models\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "ORMarhitecture.Core\\Models\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T13:19:30.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\ORMarhitecture.Core\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ORMarhitecture.Core\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\sql apps\\ORMarhitecture\\ORMarhitecture.Core\\Models\\Product.cs",
+              "RelativeToolTip": "ORMarhitecture.Core\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T13:19:04.672Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
