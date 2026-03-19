@@ -10,4 +10,11 @@
     <ProjectReference Include="..\ORMarhitecture.DataAccessLayer\ORMarhitecture.DataAccessLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORMarhitecture.BLogicLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+281d93b361e18e580267dbf35802fd689c26c6ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc7380ca6ac46791a5c8fbc821bc044e468af82d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORMarhitecture.BLogicLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORMarhitecture.BLogicLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
