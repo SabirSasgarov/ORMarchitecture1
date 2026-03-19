@@ -1,5 +1,4 @@
 ﻿using ORMarhitecture.Core.Models.Common;
-using System.ComponentModel.DataAnnotations;
 
 namespace ORMarhitecture.Core.Models
 {
@@ -12,6 +11,9 @@ namespace ORMarhitecture.Core.Models
 		//[MaxLength(100)]
 		public string Description { get; set; } = null!;
 		public decimal Price { get; set; }
+		//public bool IsDeleted { get; set; } = false;
+		public Guid CategoryId {  get; set; }
+		public Category Category { get; set; }
 
 		public override string ToString()
 		{

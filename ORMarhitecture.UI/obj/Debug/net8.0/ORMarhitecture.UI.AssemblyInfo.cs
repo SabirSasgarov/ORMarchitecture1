@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORMarhitecture.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc7380ca6ac46791a5c8fbc821bc044e468af82d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdda3dfbe09ec2d3ef88209156a22337235f3d90")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORMarhitecture.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORMarhitecture.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -36,18 +36,51 @@ namespace ORMarhitecture.BLogicLayer.Services
 
 		public async Task<Product> AddProduct(Product newProduct)
 		{
-			if(newProduct == null)
+			if (newProduct == null)
 				throw new Exception("Product is null!");
 
 			if (await context.Products.AnyAsync(p => p.Name.ToLower() == newProduct.Name.ToLower()))
 				throw new Exception("Already exists!");
 			newProduct.Id = Guid.NewGuid();
-			newProduct.CreatedDate = DateTime.Now;
 			await context.Products.AddAsync(newProduct);
 			await context.SaveChangesAsync();
 			return newProduct;
 		}
 
+		public async Task<Product> UpdateProduct(Guid id, Product product)
+		{
+			if (product == null)
+				throw new Exception();
+			
+			var existingProduct = await context.Products.FirstOrDefaultAsync(p => p.Id == id);
+			
+			if (existingProduct != null)
+				throw new Exception("No such product");
+			
+			if (await context.Products.AnyAsync(p=> p.Name.ToLower() == product.Name.ToLower() || p.Id != product.Id))
+				throw new Exception("Already exists");
+
+			existingProduct.Name = product.Name;
+			existingProduct.Price = product.Price;
+			existingProduct.Description = product.Description;
+
+			context.Products.Update(existingProduct);
+			context.SaveChangesAsync();
+
+			return existingProduct;
+		}
+
+		public async Task DeleteProduct(Guid id)
+		{
+			var existingProduct = await context.Products.FirstOrDefaultAsync(p => p.Id == id);
+			if (existingProduct == null)
+				throw new Exception($"There is no such product!");
+
+			existingProduct.IsDeleted = true;
+			context.Products.Update(existingProduct);
+
+			await context.SaveChangesAsync();
+		}
 
 
 
